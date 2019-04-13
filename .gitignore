@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 project/boot
 target
 .ensime
@@ -10,3 +11,43 @@ TAGS
 .history
 .*.swp
 .idea
+=======
+.build*
+.cache
+.data
+.glide
+.tmp
+*.swp
+*.log
+/vendor
+/test_results
+/artifacts
+/releases
+
+
+cmd/spire-agent/spire-agent
+cmd/spire-server/spire-server
+
+plugin/agent/keymanager-memory/keymanager-memory
+plugin/agent/nodeattestor-jointoken/nodeattestor-jointoken
+plugin/agent/nodeattestor-secretfile/nodeattestor-secretfile
+plugin/agent/workloadattestor-secretfile/workloadattestor-secretfile
+plugin/agent/workloadattestor-unix/workloadattestor-unix
+plugin/agent/workloadattestor-k8s/workloadattestor-k8s
+
+functional/tools/stresstest/stresstest
+functional/tools/tokengenerator/tokengenerator
+functional/tools/workload/workload
+
+proto/test/dummy/dummyplugin/dummyplugin
+
+tools/protoc-gen-spireplugin/protoc-gen-spireplugin
+
+
+# Travis CI encrypted files decryption paths
+.travis/spire-travis-ci.json
+
+# Editor specific configuration
+.idea
+.vscode
+>>>>>>> upstream/master
